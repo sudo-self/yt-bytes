@@ -237,16 +237,16 @@ const Home: React.FC = () => {
 
         {/* Download Links */}
         {downloadLinks && (
-          <div className="mt-4 p-4 bg-gray-700 rounded-lg">
-            <h3 className="text-lg font-semibold">Download Ringtones:</h3>
+          <div className="mt-4 p-4 bg-black rounded-lg">
+            <h3 className="text-lg font-semibold">YT Ringtones</h3>
             <ul className="mt-2">
               <li>
-                <a href={downloadLinks.mp3} download className="text-blue-500 hover:underline">
+                <a href={downloadLinks.mp3} download className="text-red-600 hover:underline">
                   ANDROID MP3
                 </a>
               </li>
               <li>
-                <a href={downloadLinks.m4r} download className="text-blue-500 hover:underline">
+                <a href={downloadLinks.m4r} download className="text-red-600 hover:underline">
                   iPHONE MP4
                 </a>
               </li>
