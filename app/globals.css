@@ -1,0 +1,31 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0a0a0a;
+    --foreground: #ededed;
+  }
+}
+
+body {
+  color: var(--foreground);
+  background: var(--background);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.gradient-button {
+  background: linear-gradient(90deg, rgba(239, 68, 68, 1) 0%, rgba(75, 85, 99, 1) 100%);
+  transition: background 0.3s;
+}
+
+.gradient-button:hover {
+  background: linear-gradient(90deg, rgba(239, 68, 68, 1) 0%, rgba(75, 85, 99, 1) 100%);
+}
+
